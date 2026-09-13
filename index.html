@@ -13,7 +13,7 @@
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23243343'/%3E%3Ctext x='8' y='43' fill='%23d9ebfa' font-size='34' font-family='Arial' font-weight='bold'%3ESS%3C/text%3E%3C/svg%3E"
     />
-    <link rel="stylesheet" href="style.css?v=portrait3" />
+    <link rel="stylesheet" href="style.css?v=projects" />
   </head>
   <body>
     <a class="skip" href="#work">Skip to projects</a>
@@ -81,25 +81,34 @@
           <p>A few things I’ve taken from<br />“what if” to working software.</p>
         </div>
         <article class="project project-blue reveal">
-          <div class="project-art dayfolio-art">
-            <div class="mini-window">
-              <div class="mini-nav">
-                <b>dayfolio<span>✳</span></b
-                ><span>Stories worth sharing</span>
-              </div>
-              <div class="mini-title">Good ideas.<br /><em>Great stories.</em></div>
-              <div class="mini-posts">
-                <div>
-                  <span class="mini-cover cover-blue">&lt;/&gt;</span><b>Build. Learn. Share.</b
-                  ><span>A space for your next idea.</span>
-                </div>
-                <div>
-                  <span class="mini-cover cover-yellow">Aa</span><b>Make room for curiosity.</b
-                  ><span>Discover a fresh perspective.</span>
-                </div>
-              </div>
-            </div>
-            <span class="art-caption">INTERFACE CONCEPT / DAYFOLIO</span>
+          <div class="project-gallery dayfolio-art" aria-label="Dayfolio screenshots">
+            <a
+              class="project-screenshot"
+              href="assets/dayfolio-home.png"
+              target="_blank"
+              rel="noopener"
+              aria-label="View Dayfolio home & discovery screenshot at full size"
+              ><img
+                src="assets/dayfolio-home.png"
+                alt="Dayfolio: home & discovery"
+                width="1920"
+                height="1080"
+                loading="lazy"
+              /><span>Home & discovery<span aria-hidden="true">↗</span></span></a
+            ><a
+              class="project-screenshot secondary-screenshot"
+              href="assets/dayfolio-posts.png"
+              target="_blank"
+              rel="noopener"
+              aria-label="View Dayfolio published stories screenshot at full size"
+              ><img
+                src="assets/dayfolio-posts.png"
+                alt="Dayfolio: published stories"
+                width="1920"
+                height="1080"
+                loading="lazy"
+              /><span>Published stories<span aria-hidden="true">↗</span></span></a
+            >
           </div>
           <div class="project-info">
             <span class="eyebrow">01 — FULL-STACK PUBLISHING PLATFORM</span>
@@ -116,30 +125,52 @@
               <li>JWT authentication and admin / author permissions</li>
               <li>8+ React pages with image uploads and session handling</li>
             </ul>
-            <a
-              class="text-link"
-              href="https://github.com/shiwang27/dayfolio"
-              target="_blank"
-              rel="noopener"
-              >Explore the code <span>↗</span></a
-            >
+            <div class="project-links">
+              <a
+                class="text-link"
+                href="https://dayfolio-fawn.vercel.app/posts"
+                target="_blank"
+                rel="noopener"
+                >Visit live project <span>↗</span></a
+              ><a
+                class="text-link"
+                href="https://github.com/shiwang27/dayfolio"
+                target="_blank"
+                rel="noopener"
+                >Code ↗</a
+              >
+            </div>
           </div>
         </article>
         <article class="project project-jade reveal">
-          <div class="project-art campus-art">
-            <div class="mini-window campus-window">
-              <div class="mini-nav">
-                <b>CampusBaazar<span>↗</span></b
-                ><span>Your campus. Connected.</span>
-              </div>
-              <div class="mini-title">Less clutter.<br /><em>More campus.</em></div>
-              <div class="market-list">
-                <div><span>01</span><b>Find your next essential</b><span>↗</span></div>
-                <div><span>02</span><b>Give it a second chapter</b><span>↗</span></div>
-                <div><span>03</span><b>Share what you know</b><span>↗</span></div>
-              </div>
-            </div>
-            <span class="art-caption">INTERFACE CONCEPT / CAMPUSBAAZAR</span>
+          <div class="project-gallery campus-art" aria-label="CampusBaazar screenshots">
+            <a
+              class="project-screenshot"
+              href="assets/campus-home.png"
+              target="_blank"
+              rel="noopener"
+              aria-label="View CampusBaazar marketplace home screenshot at full size"
+              ><img
+                src="assets/campus-home.png"
+                alt="CampusBaazar: marketplace home"
+                width="1920"
+                height="1080"
+                loading="lazy"
+              /><span>Marketplace home<span aria-hidden="true">↗</span></span></a
+            ><a
+              class="project-screenshot secondary-screenshot"
+              href="assets/campus-products.png"
+              target="_blank"
+              rel="noopener"
+              aria-label="View CampusBaazar product listings screenshot at full size"
+              ><img
+                src="assets/campus-products.png"
+                alt="CampusBaazar: product listings"
+                width="1920"
+                height="1080"
+                loading="lazy"
+              /><span>Product listings<span aria-hidden="true">↗</span></span></a
+            >
           </div>
           <div class="project-info">
             <span class="eyebrow">02 — STUDENT MARKETPLACE</span>
@@ -344,6 +375,6 @@
         ><a href="#home" aria-label="Back to top">↑</a>
       </div>
     </footer>
-    <script src="app.js?v=portrait3"></script>
+    <script src="app.js?v=projects"></script>
   </body>
 </html>

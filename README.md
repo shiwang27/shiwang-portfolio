@@ -25,7 +25,9 @@ The portfolio highlights Shiwang Solanki’s work in backend and full-stack deve
 | [CampusBaazar](https://github.com/shiwang27/CampusBaazar)                     | Student marketplace with buyer, seller, and administrator workflows.                                   | React, Spring Boot, Spring Security, JWT, Docker |
 | [Inventory Management API](https://github.com/shiwang27/First-spring-project) | Product inventory API with CRUD operations and layered application architecture.                       | Java 21, Spring Boot, Spring Data JPA, H2, Maven |
 
-Project visuals on the portfolio are interface concepts rather than screenshots of the deployed applications.
+Dayfolio and CampusBaazar are presented with actual application screenshots. The inventory project uses an illustrative API response.
+
+Live projects: [Dayfolio](https://dayfolio-fawn.vercel.app/posts) · [CampusBaazar](https://campus-baazar.vercel.app/).
 
 ## Technology
 
@@ -44,6 +46,10 @@ The website runs without a frontend framework, build process, application server
 ```text
 shiwang-portfolio/
 ├── assets/
+│   ├── campus-home.png
+│   ├── campus-products.png
+│   ├── dayfolio-home.png
+│   ├── dayfolio-posts.png
 │   ├── about.jpg
 │   ├── brand-kit.png
 │   ├── footer-art.png
