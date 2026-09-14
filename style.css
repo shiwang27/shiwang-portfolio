@@ -1309,3 +1309,7 @@ footer > div {
     width: 90%;
   }
 }
+
+.portrait-slides {
+  overflow: hidden;
+}
